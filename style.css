@@ -1,0 +1,35 @@
+body {
+  background: darkgreen;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.pile {
+  width: 80px;
+  height: 120px;
+  border: 1px solid white;
+  margin: 10px;
+  display: inline-block;
+  background: white;
+  color: black;
+  line-height: 120px;
+}
+
+.card {
+  width: 80px;
+  height: 120px;
+  border: 1px solid black;
+  margin: 2px;
+  background: white;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  line-height: 120px;
+}
+
+.tableau {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
